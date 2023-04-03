@@ -8,10 +8,10 @@
 
  #particles-js {
      background-color: #14087e;
-     position: absolute;
+     position: fixed;
      z-index: -5;
      width: 100%;
-     height: 74rem;
+     height: 100%;
      top: 0;
  }
 
@@ -28,7 +28,6 @@
  }
 
  .dimens {
-     padding: .5rem .5rem;
      max-width: 700px;
 
  }
@@ -54,7 +53,7 @@
  }
 
  a ul {
-     height: 6vh;
+     height: 3rem;
  }
 
  .edit-border {
