@@ -4,3 +4,4 @@ window.addEventListener("scroll", function () {
     nav.classList.toggle("after", this.window.scrollY > 0);
 
 })
+
