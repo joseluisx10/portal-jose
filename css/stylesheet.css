@@ -1,13 +1,14 @@
  * {
      margin: 0;
      padding: 0;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-family: 'Sawarabi Gothic', sans-serif;
      text-decoration: none !important;
      box-sizing: border-box !important;
  }
 
  #particles-js {
-     background-color: #14087e;
+     background: rgb(4, 3, 1);
+     background: linear-gradient(0deg, rgba(4, 3, 1, 1) 34%, rgba(27, 98, 244, 1) 100%);
      position: fixed;
      z-index: -5;
      width: 100%;
@@ -34,10 +35,14 @@
 
  a {
      transition: .3s;
+     background: rgb(11, 18, 37);
+     background: linear-gradient(0deg, rgba(11, 18, 37, 1) 5%, rgba(27, 98, 244, 1) 100%);
  }
+
 
  a>* {
      opacity: .8;
+     color: #ffff;
  }
 
  a>*:hover {
@@ -47,7 +52,8 @@
  }
 
  a:hover {
-     background-color: rgba(243, 43, 46, 0.94) !important;
+     background: rgb(4, 3, 1);
+     background: linear-gradient(0deg, rgba(4, 3, 1, 1) 34%, rgba(27, 98, 244, 1) 100%);
      filter: brightness(100%);
 
  }
@@ -56,10 +62,7 @@
      height: 3rem;
  }
 
- .edit-border {
-     border: 2px solid #ffff;
-     border-radius: 3rem;
- }
+
 
  @media (max-width: 768px) {
 
